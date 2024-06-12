@@ -19,11 +19,13 @@ const About = () => {
             </div>
 
             <div className="py-10 flex flex-col">
-                <h3 className="subhead-text">Mes Compétences</h3>
+                <h3 className="subhead-text">
+                    Mes <span className="blue-gradient_text font-semibold drop-shadow">compétences</span>
+                </h3>
 
                 <div className="mt-16 flex flex-wrap gap-12">
                     {skills.map((skill) => (
-                        <div className="block-container w-20 h-20">
+                        <div className="relative block-container w-20 h-20 group">
                             <div className="btn-back rounded-xl"/>
                             <div className="btn-front rounded-xl flex justify-center items-center">
                                 <img
@@ -32,17 +34,23 @@ const About = () => {
                                     className="w-1/2 h-1/2 object-contain"
                                 />
                             </div>
+                            <div
+                                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none bg-white p-2 rounded-lg shadow-lg text-xs text-center w-30">
+                                <div className="font-semibold truncate">{skill.name}</div>
+                                <div className="text-gray-600 truncate">{skill.type}</div>
+                            </div>
                         </div>
                     ))}
                 </div>
+
+
             </div>
 
             <div className="py-16">
-                <h3 className="subhead-text">Expériences de Travail</h3>
+                <h3 className="subhead-text">Expériences de <span
+                    className="blue-gradient_text font-semibold drop-shadow">Travail</span></h3>
                 <div className="mt-5 flex flex-col gap-3 text-slate-500">
-                    <p>Je suis étudiant en BUT MMI à l'iut de Chambéry (73000, France),
-                        et je suis actuellement alternant Développeur Web Full Stack
-                        chez La Bonne Agence a Grenoble (38000, France)
+                    <p>J'ai eu l'opportunité de travaillé dans des structures de renom ou a mon compte !'
                     </p>
                 </div>
 

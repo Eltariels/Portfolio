@@ -38,6 +38,26 @@ body:has(.card[data-color="green"]:hover) {
         @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
     }
 
+    .purple-blue-gradient_text {
+        @apply bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb] bg-clip-text text-transparent;
+    }
+
+    .red-pink-gradient_text {
+        @apply bg-gradient-to-r from-[#ff4e50] to-[#f9d423] bg-clip-text text-transparent;
+    }
+
+    .orange-red-gradient_text {
+        @apply bg-gradient-to-r from-[#ffb347] to-[#ffcc33] bg-clip-text text-transparent;
+    }
+
+    .green-blue-gradient_text {
+        @apply bg-gradient-to-r from-[#00ffb3] to-[#008cff] bg-clip-text text-transparent;
+    }
+
+    .pink-purple-gradient_text {
+        @apply bg-gradient-to-r from-[#ff7eb3] to-[#ff758c] bg-clip-text text-transparent;
+    }
+
     .input {
         @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card;
     }
@@ -180,4 +200,69 @@ body:has(.card[data-color="green"]:hover) {
     border: #fff;
     box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+}
+
+.subtitle {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    user-select: none;
+    margin-top: 20px;
+
+    b {
+        font-weight: 400;
+        color: #2b77e7;
+        text-align: center;
+        text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #0000ff, 0 0 0.5em #8a2be2, 0 0 0.1em #8a2be2, 0 10px 3px #000;
+
+        span {
+            animation: blink linear infinite 2s;
+        }
+
+        span:nth-of-type(2) {
+            animation: blink linear infinite 3s;
+        }
+    }
+
+    @keyframes blink {
+        78% {
+            color: inherit;
+            text-shadow: inherit;
+        }
+
+        79% {
+            color: #333;
+        }
+
+        80% {
+
+            text-shadow: none;
+        }
+
+        81% {
+            color: inherit;
+            text-shadow: inherit;
+        }
+
+        82% {
+            color: #333;
+            text-shadow: none;
+        }
+
+        83% {
+            color: inherit;
+            text-shadow: inherit;
+        }
+
+        92% {
+            color: #333;
+            text-shadow: none;
+        }
+
+        92.5% {
+            color: inherit;
+            text-shadow: inherit;
+        }
+    }
 }
