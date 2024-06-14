@@ -1,4 +1,4 @@
-import { lbalogo, evolutive, avatar } from "../assets/images";
+import { lbalogo, evolutive, avatar, php } from "../assets/images";
 import {
     car,
     contact,
@@ -11,19 +11,13 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
     threads,
-    typescript
+    snapgram
 } from "../assets/icons";
 
 export const skills = [
@@ -81,6 +75,11 @@ export const skills = [
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
+    },
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
     },
 ];
 
@@ -177,5 +176,12 @@ export const projects = [
         name: 'Portfolio React Three Fiber',
         description: 'Développement Full-stack, React Three Fiber pour le front-end',
         link: 'https://theoborella.netlify.app/',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Arduino serre connectée React',
+        description: 'Développement Full-stack, React Front End, Arduino et mqtt Back End',
+        link: '',
     },
 ];
