@@ -2,12 +2,12 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {arrow} from '../assets/icons/';
 
-const InfoBox = ({ text, link, btnText }) => (
+const InfoBox = ({text, link, btnText}) => (
     <div className="info-box">
         <p className="font-medium sm:text-xl text-center">{text}</p>
         <Link to={link} className="neo-brutalism-white neo-btn">
             {btnText}
-            <img src={arrow}  alt="" className="w-4 h-4 object-contain"/>
+            <img src={arrow} alt="" className="w-4 h-4 object-contain"/>
         </Link>
     </div>
 )
@@ -17,7 +17,8 @@ const renderContent = {
         <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
             Salut ! Moi c'est <span className="font-semibold">Théo :)</span> 🖥️
             <br/>
-            Je suis à la recherche d'une Alternance en tant que <span className="font-semibold">Développeur Web Full-Stack</span>
+            Je suis à la recherche d'une <span className="font-semibold">Alternance</span> en tant que <span
+            className="font-semibold">Développeur Web Full-Stack</span>
         </h1>
     ),
     2: (
@@ -43,7 +44,7 @@ const renderContent = {
     )
 }
 
-const HomeInfo = ({ currentStage }) => {
+const HomeInfo = ({currentStage}) => {
     return renderContent[currentStage] || null;
 }
 
