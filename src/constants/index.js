@@ -159,14 +159,14 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: estate,
-        theme: 'btn-back-red',
+        theme: 'btn-back-blue',
         name: 'Brows&Cie',
         description: 'Développement Full-stack Wordpress, intégration module de RDV planity pour cabinet',
         link: 'https://browsandcie.fr',
     },
     {
         iconUrl: threads,
-        theme: 'btn-back-red',
+        theme: 'btn-back-green',
         name: 'Aux creux des montagnes',
         description: 'Développement Full-stack Wordpress, module de réservation de chambre',
         link: 'https://au-creux-des-montagnes.com',
