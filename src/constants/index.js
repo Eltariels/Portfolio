@@ -88,7 +88,7 @@ export const experiences = [
         title: "Alternance Developpeur Web Full-Stack",
         company_name: "Liongency",
         icon: liongency,
-        iconBg: "#fa0",
+        iconBg: "#fff",
         date: "Octobre 2024 - 6 Mai 2025",
         points: [
             "Intégration Front-end",
