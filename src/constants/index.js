@@ -1,4 +1,4 @@
-import { lbalogo, evolutive, avatar, php } from "../assets/images";
+import { lbalogo, evolutive, avatar, php, liongency } from "../assets/images";
 import {
     car,
     contact,
@@ -86,10 +86,25 @@ export const skills = [
 export const experiences = [
     {
         title: "Alternance Developpeur Web Full-Stack",
+        company_name: "Liongency",
+        icon: liongency,
+        iconBg: "#fa0",
+        date: "Octobre 2024 - 6 Mai 2025",
+        points: [
+            "Intégration Front-end",
+            "Création de site web wordpress",
+            "Développement intégralement personalisé et custom",
+            "100% fait main : thème et plugin",
+            "Gestion de Back-Office + BDD php/sql",
+            "Language : HTML, CSS / SASS, JS + Jquery, PHP / ACF",
+        ],
+    },
+    {
+        title: "Alternance Developpeur Web Full-Stack",
         company_name: "La Bonne Agence",
         icon: lbalogo,
         iconBg: "#1D19A9",
-        date: "Septembre 2023 - Aujourd'hui",
+        date: "Septembre 2023 - Juillet 2024",
         points: [
             "Intégration Front-end",
             "Création de site web wordpress / drupal (Front-end + Back-end)",
@@ -132,7 +147,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Eltariels',
     },
     {
         name: 'LinkedIn',
@@ -142,6 +157,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: estate,
+        theme: 'btn-back-red',
+        name: 'Brows&Cie',
+        description: 'Développement Full-stack Wordpress, intégration module de RDV planity pour cabinet',
+        link: 'https://browsandcie.fr',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-red',
+        name: 'Aux creux des montagnes',
+        description: 'Développement Full-stack Wordpress, module de réservation de chambre',
+        link: 'https://au-creux-des-montagnes.com',
+    },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
