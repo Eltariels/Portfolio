@@ -1,5 +1,6 @@
 import { lbalogo, evolutive, avatar, php, liongency } from "../assets/images";
 import {
+    bootstrap,
     car,
     contact,
     css,
@@ -24,6 +25,11 @@ export const skills = [
     {
         imageUrl: css,
         name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
         type: "Frontend",
     },
     {

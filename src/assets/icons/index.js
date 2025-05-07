@@ -1,3 +1,4 @@
+import bootstrap from './bootstrap.svg'
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
@@ -28,6 +29,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
 export {
+    bootstrap,
     css,
     express,
     git,
