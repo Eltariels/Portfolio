@@ -12,9 +12,9 @@ const About = () => {
             </h1>
 
             <div className="mt-5 flex flex-col gap-3 text-slate-500">
-                <p>Je suis étudiant en première année de Master web & technologie a l'école WEBTECH INSTITUTE du campus
+                <p>Je suis étudiant en fin de première année de Mastère web & technologie à l'école WEBTECH INSTITUTE du campus
                     Next-u à Lyon,
-                    et je suis actuellement en recherche d'un alternance en Développement web Full-stack
+                    et je suis actuellement en recherche d'un alternance en Développement web Full-stack.
                 </p>
             </div>
 
